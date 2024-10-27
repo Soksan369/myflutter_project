@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 class CustomCard extends StatelessWidget {
-  const CustomCard({this.text="hello", this.startColor,this.endColor});
+  const CustomCard({required this.text, this.startColor=Colors.blue,this.endColor=Colors.lightBlue});
   
   final String text;
   final Color? startColor;
