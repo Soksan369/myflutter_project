@@ -8,7 +8,7 @@ class HobbyCard extends StatelessWidget {
  const HobbyCard({super.key, 
     required this.title,
     required this.icon,
-    this.backgroundColor = Colors.blue, // Default color
+    this.backgroundColor = Colors.blue, 
   });
 
   @override
@@ -24,7 +24,7 @@ class HobbyCard extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Padding(
-            padding: const EdgeInsets.only(right: 20.0), // Padding on the right of the icon
+            padding: const EdgeInsets.only(right: 20.0), 
             child: Icon(
               icon,
               size: 40.0,
@@ -53,7 +53,7 @@ void main() {
           backgroundColor: Colors.white,
         ),
         body:const Padding(
-          padding: EdgeInsets.all(40.0), // Root padding for the entire layout
+          padding: EdgeInsets.all(40.0), 
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
@@ -65,7 +65,7 @@ void main() {
             HobbyCard(
                 title: 'Skating',
                 icon: Icons.skateboarding,
-                backgroundColor: Colors.blueGrey, // Hex color
+                backgroundColor: Colors.blueGrey,
               ),
             HobbyCard(
                 title: 'Gardening',
