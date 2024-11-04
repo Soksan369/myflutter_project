@@ -22,7 +22,7 @@ class MyWeather extends StatelessWidget {
 
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-
+        mainAxisSize: MainAxisSize.min,
         children: [
           Text(
             day,
@@ -53,6 +53,7 @@ void main() {
           title:const Text('Weather App'),
         ),
         body:const Row(
+          mainAxisSize: MainAxisSize.min,
           children: [
             MyWeather(
               day: 'Monday',
