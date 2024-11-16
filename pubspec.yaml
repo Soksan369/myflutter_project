@@ -62,6 +62,7 @@ flutter:
   assets:
   - assets/
   - assets/w4-s2/
+  - assets/w5-s2/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

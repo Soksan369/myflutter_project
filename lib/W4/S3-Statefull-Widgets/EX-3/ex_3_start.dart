@@ -60,7 +60,7 @@ void _nextImage() {
 
 
 void main() => runApp(
-  MaterialApp(
+ const MaterialApp(
     debugShowCheckedModeBanner: false, // Why this line ? Can you explain it ?
   home: ImageGallery(),
     ));
